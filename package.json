@@ -6,9 +6,9 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
-		"lint": "eslint .",
 		"preview": "vite preview",
-		"deploy": "vite build --base=/rsschool-cv/ && vite-plugin-gh-pages --dir=dist"
+		"deploy": "npm run build && npm run gh-pages",
+		"gh-pages": "gh-pages -d dist"
 	},
 	"homepage": "https://drpdd.github.io/rsschool-cv",
 	"dependencies": {
