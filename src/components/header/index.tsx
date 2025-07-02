@@ -7,7 +7,7 @@ import { Box } from '@mui/material';
 
 export function Header() {
 	const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
-
+	const abs = 1;
 	const handleOpenProfileMenu = (event: React.MouseEvent<HTMLElement>) => {
 		setAnchorElNav(event.currentTarget);
 	};
