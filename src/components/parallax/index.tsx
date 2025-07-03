@@ -70,7 +70,7 @@ export function Parallax() {
 					<motion.img
 						style={{ y: textY }}
 						className={styles.avatar}
-						src='/me.jpg'
+						src='./me.jpg'
 						alt='Ivan Tsebro'
 					/>
 				</div>
@@ -79,7 +79,7 @@ export function Parallax() {
 			<motion.div
 				className={styles.background}
 				style={{
-					backgroundImage: `url(/image-full.png)`,
+					backgroundImage: `url(./image-full.png)`,
 					y: backgroundY
 				}}
 			/>
@@ -87,7 +87,7 @@ export function Parallax() {
 			<div
 				className={styles.foreground}
 				style={{
-					backgroundImage: `url(/image-bottom.png)`
+					backgroundImage: `url(./image-bottom.png)`
 				}}
 			/>
 		</header>

@@ -6,12 +6,11 @@ export default defineConfig({
 	base: '/rsschool-cv/',
 	build: {
 		outDir: 'dist',
-		emptyOutDir: true,
+
 		rollupOptions: {
 			input: {
 				main: './index.html'
 			}
 		}
-	},
-	publicDir: 'public'
+	}
 });
